@@ -1,0 +1,16 @@
+Car rental system - Create Table
+
+
+Write a query to create the Owners table with the specified columns and 
+constraints.
+
+
+query.sql
+
+    1 create table Owners(
+    2 owner_id varchar(10) primary key,
+    3 owner_name varchar(20),
+    4 address varchar(20),
+    5 phone_no bigint,
+    6 email_id varchar(20)
+    7 );

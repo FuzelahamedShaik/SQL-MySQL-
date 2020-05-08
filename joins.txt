@@ -1,0 +1,11 @@
+Write a query to display list of students name and their department name who are all 
+from 'Coimbatore'. Sort the result based on students name  
+
+
+joins3.sql
+
+    1 select s.student_name,d.department_name
+    2 from student s
+    3 join department d on s.department_id = d.department_id
+    4 where s.city = 'Coimbatore'
+    5 order by s.student_name

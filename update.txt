@@ -1,0 +1,8 @@
+Hunger eats - update table
+
+
+sample.sql
+
+    1 update customers
+    2 set phone_no = "9876543210"
+    3 where customer_id = "CUST1004";

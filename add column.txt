@@ -1,0 +1,10 @@
+Car rental system - add new column
+
+Assume, CARS table has been already created. Write an appropriate query 
+for the given requirement.  
+Requirement 1: Add a new column Car_Regno VARCHAR(10)  to the Cars table.
+
+
+query.sql
+
+    1 alter table cars ADD column Car_Regno varchar(10);

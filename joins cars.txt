@@ -1,0 +1,10 @@
+Car & owner details based on car type
+
+Write a query to display car id, car name and owner id of all the cars whose car type is 'Hatchback' or 'SUV'.  Sort the result based on car id.
+
+
+query.sql
+    1 select c.car_id,c.car_name,o.owner_id from owners o
+    2 right join cars c on o.owner_id = c.owner_id
+    3 where c.car_type="Hatchback" or c.car_type="SUV"
+    4 order by c.car_id;

@@ -1,0 +1,8 @@
+Customers having gmail id
+
+Write a query to display customer id, customer name, address, and phone number of customers having Gmail id.  Sort the result based on customer id.
+
+query.sql
+    1 select customer_id,customer_name,address,phone_no from customers
+    2 where email_id like "%@gmail.com"
+    3 order by customer_id;
